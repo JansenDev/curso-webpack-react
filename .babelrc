@@ -1,0 +1,13 @@
+{
+  "presets": [
+    "@babel/preset-env",
+    // ^Con esto ya no necesitas importar React en los archivos jsx
+    [
+      "@babel/preset-react",
+      {
+        "runtime": "automatic"
+      }
+    ]
+  ],
+  "plugins": ["@babel/plugin-transform-runtime"]
+}
